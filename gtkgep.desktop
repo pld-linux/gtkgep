@@ -2,10 +2,11 @@
 Name=gtkgep
 Name[pl]=gtkgep
 Comment=GTK Guitar Effects Processor
-Comment[pl]=Procesor efektów gitarowych
+Comment[pl]=Procesor efektów gitarowych dla GTK+
 Exec=gtkgep
-Icon=gnuitar.ico
+Icon=gtkgep.png
 Terminal=false
 Type=Application
 Categories=AudioVideo;
+Encoding=UTF-8
 # vi: encoding=utf-8: termencoding=iso-8859-2
