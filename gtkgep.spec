@@ -1,5 +1,5 @@
 Summary:	GTK Guitar Effects Processor
-Summary(pl):	Procesor efektów gitarowych
+Summary(pl):	Procesor efektów gitarowych oparty na GTK+
 Name:		gtkgep
 Version:	0.2.3
 Release:	1
@@ -10,7 +10,10 @@ Source0:	http://www.macio.risp.pl/%{name}/files/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 Patch0:		%{name}-paths.patch
 URL:		http://gtkgep.prv.pl/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gtk+-devel
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -19,7 +22,17 @@ plug your guitar into the computer and play with cool distortion
 effects, for example. It has a modular plugin structure, with standard
 plugins including distortion, overdrive, delay, reverb, equalizers,
 and a flanger. It works in 16-bit resolution, in mono mode, and with
-frequencies from 11khz to 44khz. The sound quality is very good.
+frequencies from 11kHz to 44kHz. The sound quality is very good.
+
+%description -l pl
+GtkGEP zamienia komputer w procesor efektów dzia³aj±cy w czasie
+rzeczywistym. Mo¿na pod³±czyæ gitarê do komputera i graæ z efektem np.
+przesteru. Program ma modularn± strukturê wtyczek. Za³±czone
+standardowe wtyczki zawieraj± przester (distortion), overdrive,
+opó¼nienie (delay), pog³os (reverb), equalizery i flanger. Procesor
+dzia³a z rozdzielczo¶ci± 16-bitow±, w trybie monofonicznym oraz z
+czêstotliwo¶ciami próbkowania od 11kHz do 44kHz. Jako¶æ d¼wiêku jest
+bardzo dobra.
 
 %prep
 %setup -q
@@ -52,5 +65,5 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %dir %{_libdir}/%{name}
 %dir %{_libdir}/%{name}/plugins
-%{_libdir}/%{name}/plugins/*.so
+%attr(755,root,root) %{_libdir}/%{name}/plugins/*.so
 %{_desktopdir}/%{name}.desktop
