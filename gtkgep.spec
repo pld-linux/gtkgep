@@ -2,7 +2,7 @@ Summary:	GTK+ Guitar Effects Processor
 Summary(pl):	Procesor efektów gitarowych oparty na GTK+
 Name:		gtkgep
 Version:	0.2.3
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications/Sound
 Source0:	http://www.macio.risp.pl/%{name}/files/%{name}-%{version}.tar.gz
