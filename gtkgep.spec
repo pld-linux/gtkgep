@@ -1,4 +1,4 @@
-Summary:	GTK Guitar Effects Processor
+Summary:	GTK+ Guitar Effects Processor
 Summary(pl):	Procesor efektów gitarowych oparty na GTK+
 Name:		gtkgep
 Version:	0.2.3
