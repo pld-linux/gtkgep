@@ -1,0 +1,22 @@
+--- gtkgep_main.c.orig	2004-04-18 23:38:00.462283344 +0200
++++ gtkgep_main.c	2004-04-18 23:38:22.019006224 +0200
+@@ -14,7 +14,7 @@
+ 
+ 
+ #ifndef PLUGINS_PATH
+-#define PLUGINS_PATH "/usr/local/lib/" PACKAGE "-" VERSION "/plugins" 
++#define PLUGINS_PATH "/usr/lib/" PACKAGE "/plugins" 
+ #endif
+ 
+ #define MAX_NUMBER_OF_PLUGINS 32
+--- plugins/Makefile.am	2003-01-23 01:48:36.000000000 +0100
++++ plugins/Makefile.am	2004-04-18 23:57:11.950230568 +0200
+@@ -5,7 +5,7 @@
+ 		guitarfilter.la lowpass4.la highpass4.la
+ 
+ 
+-libdir=@libdir@/@PACKAGE@-@VERSION@/plugins
++libdir=@libdir@/@PACKAGE@/plugins
+ INCLUDES=@GTK_CFLAGS@ -I$(top_srcdir)/lib
+ LIBADD=$(top_srcdir)/lib/libfilter.la
+ 

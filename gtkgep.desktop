@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gtkgep
+Name[pl]=gtkgep
+Comment=GTK Guitar Effects Processor
+Comment[pl]=Procesor efektów gitarowych
+Exec=gtkgep
+Icon=gnuitar.ico
+Terminal=false
+Type=Application
+Categories=AudioVideo;
+# vi: encoding=utf-8: termencoding=iso-8859-2
