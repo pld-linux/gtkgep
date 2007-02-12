@@ -1,5 +1,5 @@
 Summary:	GTK+ Guitar Effects Processor
-Summary(pl):	Procesor efektów gitarowych oparty na GTK+
+Summary(pl.UTF-8):   Procesor efektÃ³w gitarowych oparty na GTK+
 Name:		gtkgep
 Version:	0.2.3
 Release:	2
@@ -24,14 +24,14 @@ plugins including distortion, overdrive, delay, reverb, equalizers,
 and a flanger. It works in 16-bit resolution, in mono mode, and with
 frequencies from 11kHz to 44kHz. The sound quality is very good.
 
-%description -l pl
-GtkGEP zamienia komputer w procesor efektów dzia³aj±cy w czasie
-rzeczywistym. Mo¿na pod³±czyæ gitarê do komputera i graæ z efektem np.
-przesteru. Program ma modularn± strukturê wtyczek. Za³±czone
-standardowe wtyczki zawieraj± przester (distortion), overdrive,
-opó¼nienie (delay), pog³os (reverb), equalizery i flanger. Procesor
-dzia³a z rozdzielczo¶ci± 16-bitow±, w trybie monofonicznym oraz z
-czêstotliwo¶ciami próbkowania od 11kHz do 44kHz. Jako¶æ d¼wiêku jest
+%description -l pl.UTF-8
+GtkGEP zamienia komputer w procesor efektÃ³w dziaÅ‚ajÄ…cy w czasie
+rzeczywistym. MoÅ¼na podÅ‚Ä…czyÄ‡ gitarÄ™ do komputera i graÄ‡ z efektem np.
+przesteru. Program ma modularnÄ… strukturÄ™ wtyczek. ZaÅ‚Ä…czone
+standardowe wtyczki zawierajÄ… przester (distortion), overdrive,
+opÃ³Åºnienie (delay), pogÅ‚os (reverb), equalizery i flanger. Procesor
+dziaÅ‚a z rozdzielczoÅ›ciÄ… 16-bitowÄ…, w trybie monofonicznym oraz z
+czÄ™stotliwoÅ›ciami prÃ³bkowania od 11kHz do 44kHz. JakoÅ›Ä‡ dÅºwiÄ™ku jest
 bardzo dobra.
 
 %prep
