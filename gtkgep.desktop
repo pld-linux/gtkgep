@@ -4,9 +4,8 @@ Name[pl]=gtkgep
 Comment=GTK Guitar Effects Processor
 Comment[pl]=Procesor efektów gitarowych dla GTK+
 Exec=gtkgep
-Icon=gtkgep.png
+Icon=gtkgep
 Terminal=false
 Type=Application
 Categories=GTK;Audio;
-Encoding=UTF-8
 # vi: encoding=utf-8: termencoding=iso-8859-2
